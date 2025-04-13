@@ -4,7 +4,6 @@ import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { useRepositoryStore } from '../store/repositoryStore';
 import { useAuthStore } from '../store/authStore';
-import RepositorySelector from '../components/RepositorySelector';
 import { RootStackParamList } from '../navigation/NavigationTypes';
 
 type GraphScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Graph'>;

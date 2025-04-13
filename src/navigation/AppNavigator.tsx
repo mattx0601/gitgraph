@@ -1,6 +1,4 @@
 import { createStackNavigator } from '@react-navigation/stack';
-import { NavigationContainer } from '@react-navigation/native';
-import { useAuthStore } from '../store/authStore';
 import LoginScreen from '../screens/LoginScreen';
 import GraphScreen from '../screens/GraphScreen';
 import RepositoryScreen from '../screens/RepositoryScreen';
